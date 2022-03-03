@@ -16,3 +16,4 @@ db.sqlite
 /Tests/Public
 /Tests/Resources
 /docs
+/out/*.swift

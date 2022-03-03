@@ -11,8 +11,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/binarybirds/swift-html", from: "1.6.0"),
+        .package(url: "https://github.com/cezheng/Fuzi", from: "3.1.3"),
     ],
     targets: [
+        .executableTarget(name: "Converter", dependencies: [
+            .product(name: "Fuzi", package: "Fuzi"),
+        ]),
+        
         .target(name: "FeatherIcons", dependencies: [
             .product(name: "SwiftSvg", package: "swift-html"),
         ]),
