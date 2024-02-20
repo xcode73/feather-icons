@@ -4,13 +4,13 @@ import PackageDescription
 let package = Package(
     name: "feather-icons",
     platforms: [
-       .macOS(.v10_15),
+       .macOS(.v12),
     ],
     products: [
         .library(name: "FeatherIcons", targets: ["FeatherIcons"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/binarybirds/swift-html", from: "1.6.0"),
+        .package(url: "https://github.com/binarybirds/swift-html", from: "1.7.0"),
         .package(url: "https://github.com/cezheng/Fuzi", from: "3.1.3"),
     ],
     targets: [
