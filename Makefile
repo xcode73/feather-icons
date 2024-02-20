@@ -43,7 +43,7 @@ uninstall:
 # 	test-dev
 # =====================================================================
 
-dev:
+test-dev:
 	cd .. && \
 	git clone --branch test-dev https://github.com/xcode73/feather-core.git && \
 	git clone --branch test-dev https://github.com/xcode73/analytics-module.git && \
