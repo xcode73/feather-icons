@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "FeatherIcons", targets: ["FeatherIcons"])
     ],
     dependencies: [
-        .package(url: "https://github.com/binarybirds/swift-html.git", from: "1.7.0"),
+        .package(url: "https://github.com/binarybirds/swift-html", from: "1.6.0"),
         .package(url: "https://github.com/cezheng/Fuzi.git", from: "3.1.3")
     ],
     targets: [
